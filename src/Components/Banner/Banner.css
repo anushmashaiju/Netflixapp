@@ -1,0 +1,54 @@
+.banner {
+    /*background-image: url("../../images/bannerimg/AAAABcDNn6SRfD55Z-7UJGJYZFvr14Vy4Wuv5GmN3pHQU66CflzwwqOmC1leY-6lupKrmrET6dJP0Eg9lqD_aNjfYPS4J_e2_rH9P_6J.jpg");*/
+    height: 540px;
+    background-size: cover;
+    color: white;
+}
+
+.content {
+    padding-top: 140px;
+}
+
+.title {
+    color: white;
+    padding: 10px;
+    font-size: 3rem;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.button {
+    color: rgb(255, 252, 252);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-left: 10px;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    padding-top: 0.8rem;
+    padding-bottom: 1rem;
+    background-color: rgba(51, 51, 51, 0.5);
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.button:hover {
+    color: black;
+    background-color: white;
+}
+
+.intro {
+    color: white;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 400px;
+}
+
+.fade_bottom {
+    height: 170px;
+    background-image: linear-gradient(180deg, transparent, rgba(37, 37, 37, 0.8), black);
+}

@@ -1,0 +1,36 @@
+.title{
+    font-size: 25px;
+    color: white;
+padding-top: 1px;
+}
+
+.posters{
+    display: flex;
+    overflow-x:scroll;
+    overflow-y: hidden;
+ padding: 20px;
+}
+.myposters:hover{
+    transform: scale(1.05);
+}
+.posters::-webkit-scrollbar {
+    display:none;
+}
+.myposters{
+    height: 200px;
+    margin-left: 10px;
+    padding-top:none;
+    transition: transform 300ms;
+    object-fit: contain;
+    cursor: pointer;
+}
+.small-posters{
+    height: 150px;
+    margin-left: 10px;
+    transition: transform 300ms;
+    object-fit: contain;
+    cursor: pointer;
+}
+.small-posters:hover{
+    transform: scale(1.05);
+}
