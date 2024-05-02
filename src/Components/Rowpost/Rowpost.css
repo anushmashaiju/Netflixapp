@@ -1,36 +1,41 @@
-.title{
+.title {
     font-size: 25px;
     color: white;
-padding-top: 1px;
+    padding-top: 1px;
 }
 
-.posters{
+.posters {
     display: flex;
     overflow-x:scroll;
     overflow-y: hidden;
- padding: 20px;
+    padding: 20px;
 }
-.myposters:hover{
+
+.myposters:hover {
     transform: scale(1.05);
 }
+
 .posters::-webkit-scrollbar {
-    display:none;
+    display: none;
 }
-.myposters{
-    height: 200px;
-    margin-left: 10px;
-    padding-top:none;
-    transition: transform 300ms;
-    object-fit: contain;
-    cursor: pointer;
-}
-.small-posters{
+
+.myposters {
     height: 150px;
     margin-left: 10px;
+    padding-top: none;
     transition: transform 300ms;
     object-fit: contain;
     cursor: pointer;
 }
-.small-posters:hover{
+
+.small-posters {
+    height: 100px;
+    margin-left: 10px;
+    transition: transform 300ms;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.small-posters:hover {
     transform: scale(1.05);
 }

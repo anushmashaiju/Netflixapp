@@ -5,7 +5,6 @@ import './Banner.css'
 //import {api_key} from '../../constants/api';
 import { imageUrl, trending } from '../../constants/url';
 
-
 function Banner() {
   const [movies, setMovies] = useState([]);
   useEffect(() => {
@@ -20,9 +19,9 @@ function Banner() {
       })
   }, []);
   //console.log("====movies====",movies);
+
   return (
     <div style={{ backgroundImage: `url(${movies ? imageUrl + movies.backdrop_path : ""})`, }} className='banner'>
-
       <div className='content'>
         <h1 className='title'>{movies.length !== 0 ? movies.title : ""}</h1>
         <div className='banner_buttons'></div>
@@ -32,12 +31,8 @@ function Banner() {
           {movies.length !== 0 ? movies.overview : ""}
         </div>
         <div className='fade_bottom'></div>
-
       </div>
     </div>
-
-
-
   )
 }
 
